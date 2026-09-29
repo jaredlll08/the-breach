@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "the_breach:bright",
+    "the_breach:bright",
+    "the_breach:bright",
+    "the_breach:bright"
+  ],
+  "result": {
+    "id": "minecraft:oak_planks"
+  }
+}

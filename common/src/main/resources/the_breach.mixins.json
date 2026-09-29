@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.blamejared.the_breach.mixin",
+  "compatibilityLevel": "JAVA_18",
+  "mixins": [
+    "access.AccessNoiseRouterData",
+    "transform.entity.MixinEntity",
+    "transform.entity.MixinPlayer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+  ]
+}

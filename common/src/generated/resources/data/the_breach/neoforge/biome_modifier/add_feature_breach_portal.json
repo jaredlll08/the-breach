@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#the_breach:has_breach_portal",
+  "features": "the_breach:breach_portal",
+  "step": "underground_structures"
+}

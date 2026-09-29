@@ -1,0 +1,13 @@
+{
+  "feature": "the_breach:bright_tree",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 90
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    }
+  ]
+}

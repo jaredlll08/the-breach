@@ -1,0 +1,9 @@
+{
+  "parent": "the_breach:block/template_ore",
+  "textures": {
+    "layer0": "the_breach:block/dismal_base",
+    "layer1": "the_breach:block/dismal_lapis_ore_blur",
+    "layer2": "the_breach:block/dismal_lapis_ore",
+    "particle": "the_breach:block/dismal_base"
+  }
+}

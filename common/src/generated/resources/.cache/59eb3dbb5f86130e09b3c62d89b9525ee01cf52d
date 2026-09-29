@@ -1,0 +1,12 @@
+// 26.1.2	2026-10-27T23:01:24.1025227	Loot Tables
+ab1b551b4532e67a01d4308af063705a4b7931eb data/the_breach/loot_table/blocks/bright.json
+dd79fe474d72b01bb7c96494fded7c5b6806efd3 data/the_breach/loot_table/blocks/bright_spread.json
+aea8adae75467cd2c1a49fb69cd9ed81c2bf7130 data/the_breach/loot_table/blocks/dismal_coal_ore.json
+83a6af63c92ad3a45645987b4e42083034b06769 data/the_breach/loot_table/blocks/dismal_copper_ore.json
+bb3a718d976325ac937867b5a0ec2df454683c4d data/the_breach/loot_table/blocks/dismal_diamond_ore.json
+ca16064101e6f1c6c8baf2efd5c27a014a53d5d2 data/the_breach/loot_table/blocks/dismal_emerald_ore.json
+b8fb577394527603cea9588ef6bacf3cb52dc4ad data/the_breach/loot_table/blocks/dismal_gold_ore.json
+f21155dd2855d387d2eaae3ed203744deb2b6429 data/the_breach/loot_table/blocks/dismal_iron_ore.json
+df4964008dfc7b04aa99065ddd184828ab18227e data/the_breach/loot_table/blocks/dismal_lapis_ore.json
+29dfccc9fb83e8a0e98bfef50af99899c147150b data/the_breach/loot_table/blocks/dismal_redstone_ore.json
+e17f784470cf8eed3b5a298f1c11b31012e00f42 data/the_breach/loot_table/entities/bleak.json

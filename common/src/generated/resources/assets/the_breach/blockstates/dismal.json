@@ -1,0 +1,81 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "the_breach:block/dismal_0"
+      },
+      {
+        "model": "the_breach:block/dismal_0",
+        "y": 90
+      },
+      {
+        "model": "the_breach:block/dismal_0",
+        "y": 180
+      },
+      {
+        "model": "the_breach:block/dismal_0",
+        "y": 270
+      },
+      {
+        "model": "the_breach:block/dismal_1"
+      },
+      {
+        "model": "the_breach:block/dismal_1",
+        "y": 90
+      },
+      {
+        "model": "the_breach:block/dismal_1",
+        "y": 180
+      },
+      {
+        "model": "the_breach:block/dismal_1",
+        "y": 270
+      },
+      {
+        "model": "the_breach:block/dismal_2"
+      },
+      {
+        "model": "the_breach:block/dismal_2",
+        "y": 90
+      },
+      {
+        "model": "the_breach:block/dismal_2",
+        "y": 180
+      },
+      {
+        "model": "the_breach:block/dismal_2",
+        "y": 270
+      },
+      {
+        "model": "the_breach:block/dismal_3"
+      },
+      {
+        "model": "the_breach:block/dismal_3",
+        "y": 90
+      },
+      {
+        "model": "the_breach:block/dismal_3",
+        "y": 180
+      },
+      {
+        "model": "the_breach:block/dismal_3",
+        "y": 270
+      },
+      {
+        "model": "the_breach:block/dismal_4"
+      },
+      {
+        "model": "the_breach:block/dismal_4",
+        "y": 90
+      },
+      {
+        "model": "the_breach:block/dismal_4",
+        "y": 180
+      },
+      {
+        "model": "the_breach:block/dismal_4",
+        "y": 270
+      }
+    ]
+  }
+}

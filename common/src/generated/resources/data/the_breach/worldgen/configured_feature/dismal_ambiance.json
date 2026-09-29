@@ -1,0 +1,27 @@
+{
+  "type": "the_breach:dismal_ambiance",
+  "config": {
+    "search_areas": [
+      2,
+      4
+    ],
+    "targets": [
+      {
+        "state": {
+          "Name": "minecraft:acacia_trapdoor",
+          "Properties": {
+            "facing": "north",
+            "half": "bottom",
+            "open": "false",
+            "powered": "false",
+            "waterlogged": "false"
+          }
+        },
+        "target": {
+          "block": "the_breach:dismal",
+          "predicate_type": "minecraft:block_match"
+        }
+      }
+    ]
+  }
+}

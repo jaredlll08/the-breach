@@ -1,0 +1,79 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {},
+    "minecraft:audio/music_volume": 0.0,
+    "minecraft:gameplay/bed_rule": {
+      "can_set_spawn": "never",
+      "can_sleep": "never",
+      "explodes": true
+    },
+    "minecraft:visual/ambient_light_color": "#080808",
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:mycelium"
+        },
+        "probability": 0.3
+      },
+      {
+        "particle": {
+          "type": "minecraft:ash"
+        },
+        "probability": 0.15
+      }
+    ],
+    "minecraft:visual/block_light_tint": "#3da6e4",
+    "minecraft:visual/fog_color": "#030303",
+    "minecraft:visual/fog_end_distance": 32.0,
+    "minecraft:visual/sky_color": "#020202",
+    "the_breach:gameplay/exhaustion_modifier": 2.0,
+    "the_breach:gameplay/gravity_modifier": 0.9
+  },
+  "carvers": "minecraft:nether_cave",
+  "downfall": 0.0,
+  "effects": {
+    "grass_color": "#000000",
+    "water_color": "#000000"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "the_breach:bright_tree",
+      "the_breach:breach_portal_frame",
+      "the_breach:dismal_ambiance",
+      "the_breach:iron_ore",
+      "the_breach:copper_ore",
+      "the_breach:diamond_ore",
+      "the_breach:emerald_ore",
+      "the_breach:gold_ore",
+      "the_breach:redstone_ore",
+      "the_breach:coal_ore",
+      "the_breach:lapis_ore"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "the_breach:bleak",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 1
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 1.0
+}

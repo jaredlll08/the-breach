@@ -1,0 +1,5 @@
+// 26.1.2	2026-10-28T00:58:18.555757	Tags for minecraft:block mod id the_breach
+0145fcd6e304fdaa3e2139560fa0e8e8cae953c0 data/minecraft/tags/block/mineable/pickaxe.json
+17e3a288628337066935baefc9cbb0c4f9455a51 data/minecraft/tags/block/needs_iron_tool.json
+afababcfbd758072b08e770194e565aaa18b71f6 data/minecraft/tags/block/needs_stone_tool.json
+419a838c57f5283e9d3ec8fbb928429b796e3af8 data/the_breach/tags/block/bright_can_spread_on.json

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "the_breach:bright",
+    "the_breach:bright",
+    "the_breach:bright",
+    "the_breach:bright",
+    "the_breach:bright",
+    "the_breach:bright",
+    "the_breach:bright",
+    "the_breach:bright"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:cobblestone"
+  }
+}

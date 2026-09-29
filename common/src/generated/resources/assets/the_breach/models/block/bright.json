@@ -1,0 +1,7 @@
+{
+  "parent": "the_breach:block/template_bright",
+  "textures": {
+    "layer0": "the_breach:block/bright",
+    "particle": "the_breach:block/bright"
+  }
+}
