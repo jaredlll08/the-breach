@@ -24,7 +24,7 @@ public class RootPlugin implements Plugin<Project> {
     public void apply(Project project) {
         project.setVersion(GMUtils.updatingVersion(Util.property(project, "mod_version")));
         project.getTasks().register("postDiscord").configure(task -> {
-            task.dependsOn(":fabric:publishCurseForge", ":neoforge:publishCurseForge");
+            task.dependsOn(/*":fabric:publishCurseForge",*/ ":neoforge:publishCurseForge");
             task.doLast(last -> {
                 try {
                     final String name = Objects.requireNonNull(project.property("name"), "Cannot find 'name' property")
@@ -45,7 +45,7 @@ public class RootPlugin implements Plugin<Project> {
                     final Embed embed = new Embed();
                     final StringJoiner downloadSources = new StringJoiner("\n");
                     
-                    Map.of("fabric", "<:fabric:932163720568782878>", "neoforge", "<:neoforged:1184738260371644446>")
+                    Map.of(/*"fabric", "<:fabric:932163720568782878>", */"neoforge", "<:neoforged:1184738260371644446>")
                             .entrySet()
                             .stream()
                             .map(entry -> {
@@ -59,7 +59,7 @@ public class RootPlugin implements Plugin<Project> {
                             }).filter(Objects::nonNull)
                             .forEach(downloadSources::add);
                     
-                    Stream.of("common", "fabric", "neoforge")
+                    Stream.of("common", /*"fabric",*/ "neoforge")
                             .map(s -> project.project(":" + s))
                             .map(subProject -> "<:maven:932165250738970634> `\"" + subProject.getGroup() + ":" + subProject.getExtensions()
                                     .getByType(BasePluginExtension.class)
