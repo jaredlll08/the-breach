@@ -90,7 +90,7 @@ public class LoaderPlugin implements Plugin<Project> {
         tracker.getMcVersion().set(Util.property(project, "minecraft"));
         tracker.getHomepage().set(Util.property(project, "curse_homepage"));
         tracker.getAuthor().set(Util.property(project, "author"));
-        tracker.getProjectName().set(Util.property(project, "mod_name"));
+        tracker.getProjectName().set(Util.property(project, "modid"));
     }
     
 }
